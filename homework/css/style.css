@@ -128,25 +128,25 @@ li{
 
 main{
   background-color: #f7f7f7;
-  height: 200px;
+  height: 800px;
 }
 
-.before {
+/*.before {
   display: inline-block;
   height: 100%;
   vertical-align: middle;
-}
+}*/
 
 
 .contacts {
   background-color:#e7e7e7;
   margin-left: 19.53%;
   margin-right: 19.53%;
-  height: 5.21%;
   width: 60.9375%;
   margin-top: 1.43%;
-  display: inline-block;
-  vertical-align: middle;}
+  /*display: inline-block;*/
+  vertical-align: middle;
+}
 
 h2 {
   padding-left: 1.25%;
@@ -161,3 +161,8 @@ h4 {
   padding-right: 0.875%;
   line-height: 3em;
 }
+
+.clear {
+  clear: both;
+}
+
