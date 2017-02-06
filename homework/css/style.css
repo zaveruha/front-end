@@ -18,17 +18,22 @@
 } */
 
 .class-telephone {
-  float: left;
+  display: inline-block;
+  vertical-align: middle;  /* ..по вертикали */
+  line-height: 0.25; /* переопределить высоту строки на обычную */
+  /*  border: 1px solid red;*/
+  }
+
+
+  .class-telephone, .class-logo {
   padding-left: 19.53%;
-}
+  }
 
-.class-telephone, .class-login {
-  margin-top: -10px;
-}
-
-.class-login {
-  float: right;
-  padding-right: 19.53%;
+  .class-login {
+  display: inline-block;
+  line-height: 0.25; /* переопределить высоту строки на обычную */
+    /*  border: 1px solid red;*/
+  margin-left: 43.53%;
 }
 
 /*.clearfix:after {
@@ -36,28 +41,32 @@
   display: table;
   clear: both;
 }
-*/
 
 .clear {
   clear: both;
-}
+} */
 
 .navigat {
   background-color: #232323;
   height: 168px;
 }
 
+
 .class-logo {
-  position: absolute;
-  top: 64px;
-  left: 19.53%;
+display: block;
+float: left;
+}
+
+
+.class-logo, .search{
+  padding-top: 4%;
 }
 
 .search {
-  position: absolute;
-  top: 64px;
-  right: 19.53%;
+display: block;
+margin-left: 66.53%;
 }
+
 
 input {
   height: 35px;
@@ -66,10 +75,16 @@ input {
 }
 
 
+.class-image {
+position: absolute;
+left: 95%;
+}
+
+
 .page-navigation{
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
-  padding-top: 107px;
+  padding-top: 2em;
 }
 
 
@@ -90,8 +105,8 @@ ul li {
 
 a {
   text-decoration: none;
-  margin-right: 54px;
   color: #ffffff;
+  margin-right: 54px;
 }
 
 a:hover {
@@ -101,9 +116,48 @@ a:hover {
 
 li{
   display: inline-block;
-  position: relative;
+}
 
+.class-bag{
+  line-height: 1em;
+  position: absolute;
+  right: 19.53%;
+  height: 19.53%;
 }
 
 
+main{
+  background-color:#f7f7f7;
+  height: 200px;
+}
 
+.before {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+
+.contacts {
+  background-color:#e7e7e7;
+  margin-left: 19.53%;
+  margin-right: 19.53%;
+  height: 5.21%;
+  width: 60.9375%;
+  margin-top: 1.43%;
+  display: inline-block;
+  vertical-align: middle;}
+
+h2 {
+  padding-left: 1.25%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  float: left;
+}
+
+h4 {
+  color: #9e9e9e;
+  float: right;
+  padding-right: 0.875%;
+  line-height: 3em;
+}
