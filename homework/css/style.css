@@ -1,38 +1,62 @@
+body{background-color:#555555;}
+
 li {
   list-style-type: none;
   position: relative;
-  display: block;
-  padding-left: 60px;
+  display:block;
+  padding-left: 5em;
   z-index: 10;
   height: auto;
 }
 
+
+
 ol {
-  counter-reset: list ;
+  counter-reset: list;
+ margin: 7em  7em;
 }
 
-ol li:before{
-  counter-increment: list 2;
+
+
+ol li:before{display: flex; align-items: center; justify-content: center;
+counter-increment: list 1;
   content: counter(list) ". ";
   position: absolute;
   left: 0;
-  width: 5%;
+  width: 5em;
   height: 100%;
   background-color: #cc4242;
   z-index: 20;
   text-align: center;
-  opacity:0.7;
 }
+
+
 
 li:nth-child(odd){
   background-color: #cccccc;
 }
 
+
+
 li:nth-child(even){
   background-color: #ffffff;
 }
 
-li:before {
-  content: " ";
-  padding: 5px;
+
+
+ol li:nth-child(even):before {
+
+background-color: #ff5353;
 }
+
+
+
+
+
+
+
+
+
+
+
+
