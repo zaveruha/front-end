@@ -8,7 +8,6 @@ li {
   /*padding-top:11px;*/
   z-index: 10;
   height: auto;
-
 }
 
 ol {
@@ -51,7 +50,6 @@ li:nth-child(even){
 }
 
 ol li:nth-child(even):before {
-
 background-color: #ff5353;
 }
 
