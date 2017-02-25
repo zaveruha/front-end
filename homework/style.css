@@ -1,14 +1,8 @@
-/*font-family: 'Montserrat', arial;*/
 html{
   font-family: "Montserrat Light", arial;
   font-size:15px;
   line-height:1.733;
 }
-
-/*header-container-text{*/
-  /*display: flex;*/
-  /*flex-direction: row;*/
-/*}*/
 
 h1{
   font-family: "Montserrat", arial;
@@ -29,7 +23,6 @@ ul{
 
 ul li{
   display: inline-block;
-
 }
 
 ul li a{
